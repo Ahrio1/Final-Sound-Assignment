@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
     [System.Serializable]
     public struct Emitters
     {
+        public StudioEventEmitter ambiance;
         public StudioEventEmitter musicMenu;
         public StudioEventEmitter music;
         public StudioEventEmitter music02;
@@ -31,6 +32,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private EventReference playerJump;
     [SerializeField] private EventReference playerLand;
     [SerializeField] private EventReference playerAttackMelee;
+    [SerializeField] private EventReference playerAttackRanged;
     
     [SerializeField] private EventReference playerHurt;
     EventInstance playerFootstepInstance;
@@ -224,6 +226,16 @@ public class AudioManager : MonoBehaviour
             return;
         }
         RuntimeManager.PlayOneShot(playerAttackMelee, transform.position);
+    }
+
+    public void PlayRanged()
+    {
+        if (playerAttackRanged.IsNull)
+        {
+            Debug.LogWarning("Fmod event not found: playerAttackRanged");
+            return;
+        }
+        RuntimeManager.PlayOneShot(playerAttackRanged);
     }
 
 	

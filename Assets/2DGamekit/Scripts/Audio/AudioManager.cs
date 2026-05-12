@@ -22,6 +22,7 @@ public class AudioManager : MonoBehaviour
         public StudioEventEmitter musicBoss;
         public StudioEventEmitter musicPause;
         public StudioEventEmitter snapShotPause;
+        public StudioEventEmitter snapshotDefault;
     }
     public Emitters eventEmitters;
 

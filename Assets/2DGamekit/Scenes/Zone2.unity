@@ -8678,7 +8678,7 @@ MonoBehaviour:
       Data4: 8009643
     Path: snapshot:/OutdoorSnapshots/Outdoor_HalfCave_Snapshot
   Event: 
-  EventPlayTrigger: 3
+  EventPlayTrigger: 5
   EventStopTrigger: 6
   AllowFadeout: 1
   TriggerOnce: 0

@@ -330,11 +330,11 @@ MonoBehaviour:
     Path: 
   playerLand:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2130030559
+      Data2: 1174951664
+      Data3: -835557442
+      Data4: -1803946474
+    Path: event:/Sound/Avatar/Player/player_land
   playerAttackMelee:
     Guid:
       Data1: 0

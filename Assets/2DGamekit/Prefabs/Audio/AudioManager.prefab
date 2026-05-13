@@ -551,6 +551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4955755322640355109}
   - component: {fileID: 9205878522362859005}
+  - component: {fileID: 8273499332936731396}
   m_Layer: 0
   m_Name: Ambiance
   m_TagString: Ambiance
@@ -604,6 +605,19 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &8273499332936731396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4686643468973955110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e964efe0e8cd4ddba522c37df205aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioEmitterPosition
+  tagName: Player
 --- !u!1 &6059229550128967253
 GameObject:
   m_ObjectHideFlags: 0

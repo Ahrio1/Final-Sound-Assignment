@@ -24074,6 +24074,30 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &312135172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1987328121677966, guid: c57359a20b483084f9310f1d0b46f64a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2065686549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &312135179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312135172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03daa8c22bdddef4193840a795b881f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioEventTrigger
+  audioSettings:
+  - emitter: {fileID: 0}
+    tag: Ambiance
+    action: 3
+    parameter: BirdIntesity
+    targetValue: 0
 --- !u!1 &314874449
 GameObject:
   m_ObjectHideFlags: 0
@@ -54733,7 +54757,7 @@ PrefabInstance:
     - target: {fileID: 3371524719925752820, guid: ac1c8692c9aeaca48ab541c2147b8923,
         type: 3}
       propertyPath: audioTriggerSettings.Array.data[0].targetValue
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -90827,6 +90851,41 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114314540861543452, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114314540861543452, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114314540861543452, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 312135179}
+    - target: {fileID: 114314540861543452, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114314540861543452, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: GenerateSettings
+      objectReference: {fileID: 0}
+    - target: {fileID: 114314540861543452, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: AudioEventTrigger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114314540861543452, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      propertyPath: OnDie.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -90834,7 +90893,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 660095371}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1987328121677966, guid: c57359a20b483084f9310f1d0b46f64a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 312135179}
   m_SourcePrefab: {fileID: 100100000, guid: c57359a20b483084f9310f1d0b46f64a, type: 3}
 --- !u!4 &2065686550 stripped
 Transform:

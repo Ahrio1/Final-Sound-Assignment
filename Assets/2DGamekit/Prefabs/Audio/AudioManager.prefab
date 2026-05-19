@@ -589,11 +589,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 800593639
-      Data2: 1299704563
-      Data3: -595457637
-      Data4: 1695991050
-    Path: event:/Sound/Ambience/AmbTerrain/AmbWind
+      Data1: -360065403
+      Data2: 1318150884
+      Data3: 1271041955
+      Data4: 1220191020
+    Path: event:/Sound/Ambience/AmbManget
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

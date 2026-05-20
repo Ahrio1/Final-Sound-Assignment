@@ -358,11 +358,11 @@ MonoBehaviour:
     Path: 
   wallDestroy:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1851221905
+      Data2: 1106622378
+      Data3: 1933104002
+      Data4: 552794334
+    Path: event:/Sound/Interactables/IntWallCrumble
   pickupHealth:
     Guid:
       Data1: 0

@@ -348,7 +348,7 @@ MonoBehaviour:
       Data2: 1131623114
       Data3: 1504547998
       Data4: -148212994
-    Path: event:/Sound/Avatar/Player/Weapon/Lazor gun
+    Path: event:/Sound/Avatar/Player/Weapon/player_weapon_ranged
   playerHurt:
     Guid:
       Data1: 0

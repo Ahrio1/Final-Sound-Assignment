@@ -323,11 +323,11 @@ MonoBehaviour:
     Path: event:/Sound/Avatar/Player/Footsteps/player_footstep
   playerJump:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -27001776
+      Data2: 1304348896
+      Data3: 1630246589
+      Data4: -772374344
+    Path: event:/Sound/Avatar/Player/player_jump
   playerLand:
     Guid:
       Data1: 2130030559
@@ -337,11 +337,11 @@ MonoBehaviour:
     Path: event:/Sound/Avatar/Player/player_land
   playerAttackMelee:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1238357959
+      Data2: 1088641633
+      Data3: -1470867042
+      Data4: -565095545
+    Path: event:/Sound/Avatar/Player/Weapon/player_weapon_melee
   playerAttackRanged:
     Guid:
       Data1: 296144582

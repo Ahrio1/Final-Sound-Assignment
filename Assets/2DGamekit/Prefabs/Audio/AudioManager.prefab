@@ -262,6 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4318290237554146966}
   - component: {fileID: 4318290237554146967}
+  - component: {fileID: 8326210738549515413}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: AudioManager
@@ -435,11 +436,11 @@ MonoBehaviour:
     Path: 
   enemyRanged:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1845039871
+      Data2: 1287743712
+      Data3: 653039522
+      Data4: -857083948
+    Path: event:/Sound/Avatar/Enemies/ChomperSpitter/Spitter Spit
   enemyMelee:
     Guid:
       Data1: 0
@@ -478,6 +479,22 @@ MonoBehaviour:
   combatState: 0
   aggroEnemyParamName: 
   aggroEnemyCount: 0
+--- !u!111 &8326210738549515413
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318290237554146964}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1 &4607053039799266371
 GameObject:
   m_ObjectHideFlags: 0

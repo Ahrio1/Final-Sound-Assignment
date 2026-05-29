@@ -440,7 +440,7 @@ MonoBehaviour:
       Data2: 1287743712
       Data3: 653039522
       Data4: -857083948
-    Path: event:/Sound/Avatar/Enemies/ChomperSpitter/Spitter Spit
+    Path: event:/Sound/Avatar/Enemies/ChomperSpitter/SpitterSpit
   enemyMelee:
     Guid:
       Data1: 0

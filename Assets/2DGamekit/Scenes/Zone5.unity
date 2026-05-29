@@ -70539,7 +70539,7 @@ PrefabInstance:
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossShield.Path
-      value: 
+      value: event:/Sound/Avatar/Enemies/Gunner/SheildManget
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
@@ -70599,22 +70599,22 @@ PrefabInstance:
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossShield.Guid.Data1
-      value: 0
+      value: -1815456599
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossShield.Guid.Data2
-      value: 0
+      value: 1295763242
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossShield.Guid.Data3
-      value: 0
+      value: -119092803
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossShield.Guid.Data4
-      value: 0
+      value: 2029603222
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}

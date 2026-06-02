@@ -450,11 +450,11 @@ MonoBehaviour:
     Path: event:/Sound/Avatar/Enemies/ChomperSpitter/ChomperBite
   enemyDeath:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2078526537
+      Data2: 1226856709
+      Data3: 1089396893
+      Data4: 752940818
+    Path: event:/Sound/Avatar/Enemies/ChomperSpitter/Death
   stingerGameOver:
     Guid:
       Data1: 715162006

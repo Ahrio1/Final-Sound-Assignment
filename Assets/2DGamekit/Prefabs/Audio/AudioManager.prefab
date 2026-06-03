@@ -387,11 +387,11 @@ MonoBehaviour:
     Path: event:/Sound/Interactables/IntDoorOpen
   pickupKey:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1583077244
+      Data2: 1185264506
+      Data3: 1277076905
+      Data4: 539030861
+    Path: event:/Sound/Interactables/IntPickUps/IntPickUpKey
   pressurePad:
     Guid:
       Data1: 0
@@ -415,18 +415,18 @@ MonoBehaviour:
     Path: event:/Sound/Interactables/IntBox/IntBoxPush
   menuClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1757173036
+      Data2: 1289757290
+      Data3: 1703659415
+      Data4: 512755463
+    Path: event:/Sound/Interactables/Ui/IntUiButton
   menuStartGame:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1757173036
+      Data2: 1289757290
+      Data3: 1703659415
+      Data4: 512755463
+    Path: event:/Sound/Interactables/Ui/IntUiButton
   enemyFootstep:
     Guid:
       Data1: 0

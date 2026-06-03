@@ -408,11 +408,11 @@ MonoBehaviour:
     Path: 
   boxPush:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1112005503
+      Data2: 1184909063
+      Data3: -1810121043
+      Data4: 1055573380
+    Path: event:/Sound/Interactables/IntBox/IntBoxPush
   menuClick:
     Guid:
       Data1: 0

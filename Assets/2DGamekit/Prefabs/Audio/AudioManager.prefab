@@ -352,11 +352,11 @@ MonoBehaviour:
     Path: event:/Sound/Avatar/Player/Weapon/PlayerWeaponRanged
   playerHurt:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -2056993796
+      Data2: 1286150980
+      Data3: 1939509420
+      Data4: 1760442228
+    Path: event:/Sound/Avatar/Player/PlayerHit
   wallDestroy:
     Guid:
       Data1: 1851221905

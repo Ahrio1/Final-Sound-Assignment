@@ -401,11 +401,11 @@ MonoBehaviour:
     Path: 
   acidSplash:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -68488630
+      Data2: 1126789652
+      Data3: -1045954396
+      Data4: -1870768696
+    Path: event:/Sound/Ambience/AmbTerrain/AmbAcidSplash
   boxPush:
     Guid:
       Data1: 1112005503

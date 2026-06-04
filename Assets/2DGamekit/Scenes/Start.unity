@@ -29055,7 +29055,7 @@ PrefabInstance:
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: playerJump.Path
-      value: event:/Sound/Avatar/Player/player_jump
+      value: event:/Sound/Avatar/Player/PlayerJump
       objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
@@ -29080,7 +29080,7 @@ PrefabInstance:
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
       propertyPath: playerAttackMelee.Path
-      value: event:/Sound/Avatar/Player/Weapon/player_weapon_melee
+      value: event:/Sound/Avatar/Player/Weapon/PlayerWeaponMelee
       objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
